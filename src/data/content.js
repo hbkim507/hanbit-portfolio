@@ -238,7 +238,7 @@ export const projects = [
     },
     type: { ko: '모바일 · React Native', en: 'Mobile · React Native' },
     role: { ko: '설계 · 개발 · 운영', en: 'Design, Development & Operations' },
-    period: { ko: '2025 — 현재', en: '2025 — Present' },
+    period: { ko: '2026.07 — 2026.08', en: '2026.07 — 2026.08' },
     stack: ['React Native (Expo)', 'TypeScript', 'Redux Toolkit · React Query', 'Swift · Kotlin Native Module', 'FCM Push', 'AWS S3 (OTA)'],
     summary: {
       ko: '국내 1위 모바일 플랫폼 기반 레거시 하이브리드 앱을 React Native로 완전히 재구축해 내재화한 원재료 수급 관리 앱입니다. 계근·입고·공급업체 관리 업무를 iOS·Android 단일 코드베이스로 제공하며, 사내 SSO 네이티브 연동과 S3 기반 번들 OTA 시스템을 처음부터 직접 설계했습니다.',
@@ -282,7 +282,7 @@ export const projects = [
     },
     type: { ko: '풀스택 · iPad 키오스크', en: 'Full-stack · iPad Kiosk' },
     role: { ko: '단독 설계 · 개발 · 배포 (클라이언트 & 서버)', en: 'Solo Design, Development & Deployment (Client & Server)' },
-    period: { ko: '2025 — 현재', en: '2025 — Present' },
+    period: { ko: '2026.06 — 2026.07', en: '2026.06 — 2026.07' },
     stack: ['React Native (iPad)', 'Swift Native Module', 'Java 21 · Spring Boot 3', 'AWS CodeBuild · CodeDeploy', 'S3 OTA'],
     summary: {
       ko: '회의실 앞 아이패드에 상시 표시되는 예약 현황 키오스크 앱과, 사내 시설 시스템을 중계하는 API 서버를 클라이언트부터 서버·배포 파이프라인까지 직접 설계·구축했습니다. 레거시 웹뷰 앱을 React Native로 재구축하고, 서버는 무DB 프록시 아키텍처로 가볍게 유지하며 AWS CodeBuild·CodeDeploy로 배포합니다.',
@@ -326,7 +326,7 @@ export const projects = [
     },
     type: { ko: '모바일 · 하이브리드', en: 'Mobile · Hybrid' },
     role: { ko: '아키텍처 설계 · 개발 · 운영', en: 'Architecture, Development & Operations' },
-    period: { ko: '2025 — 현재', en: '2025 — Present' },
+    period: { ko: '2026.03 — 2026.05', en: '2026.03 — 2026.05' },
     stack: ['React Native (Expo)', 'TypeScript', 'WebView Bridge (양방향 IPC)', 'FCM Push · Deep Link', 'OTA 웹 번들', 'i18n'],
     summary: {
       ko: '운송 관리(TMS) · IT 서비스 관리(ITSM) · 디지털 세일즈, 세 개의 사내 앱을 하나의 웹뷰 하이브리드 아키텍처로 설계해 운영합니다. 네이티브↔웹 양방향 IPC 브리지, OTA 웹 번들 업데이트, 푸시·딥링크를 공통 모듈화해 코드 재사용률 70% 이상을 달성했습니다.',
