@@ -1,0 +1,11 @@
+{
+  // Cloudflare Workers 정적 사이트 배포 설정
+  // 배포: npm run deploy  (사전 1회: npx wrangler login)
+  "name": "hanbit-portfolio",
+  "compatibility_date": "2026-08-08",
+  "assets": {
+    "directory": "./dist",
+    // SPA 라우팅: /projects, /contact 등 모든 경로를 index.html로 폴백
+    "not_found_handling": "single-page-application"
+  }
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko" data-theme="neon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>김한빛 Kim Hanbit | Multiplatform Developer</title>
+    <meta
+      name="description"
+      content="iOS·Android 앱부터 C# 데스크탑, 서버·API·DB, AI 자동화까지 — 멀티플랫폼 개발자 김한빛의 포트폴리오. Portfolio of Kim Hanbit, a multiplatform developer covering mobile, desktop, server and AI automation."
+    />
+    <meta name="author" content="김한빛 (Kim Hanbit)" />
+    <meta name="theme-color" content="#07080d" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="김한빛 Kim Hanbit | Multiplatform Developer" />
+    <meta
+      property="og:description"
+      content="앱에서 서버, 데이터베이스까지 — 플랫폼에 맞는 최적의 답을 만듭니다. From apps to servers — the right solution for every platform."
+    />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      // 저장된 테마를 렌더링 전에 적용 (깜빡임 방지)
+      try {
+        var t = localStorage.getItem('hanbit-theme');
+        if (t === 'light' || t === 'neon') {
+          document.documentElement.dataset.theme = t;
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
