@@ -766,6 +766,19 @@ main {
   justify-content: space-between;
   align-items: baseline;
 }
+.proj-top-left {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+}
+.proj-period,
+.proj-period .bi-ko,
+.proj-period .bi-en {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
 .proj-card-title .bi-ko {
   font-family: var(--font-display);
   font-weight: 700;

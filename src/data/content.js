@@ -406,6 +406,50 @@ export const projects = [
     ],
   },
   {
+    slug: 'rider-delivery-app',
+    title: { ko: '배달 라이더 앱 리뉴얼 (화이트라벨 솔루션)', en: 'Delivery Rider App Renewal (White-label Solution)' },
+    tagline: {
+      ko: '한 번의 개발로 여러 회사의 라이더 서비스를.',
+      en: 'Built once — powering rider services for multiple companies.',
+    },
+    type: { ko: '모바일 · Android', en: 'Mobile · Android' },
+    role: { ko: 'Android 앱 개발 · 리뉴얼', en: 'Android App Development & Renewal' },
+    period: { ko: '2023 — 2024', en: '2023 — 2024' },
+    stack: ['Android (Java)', 'MSSQL · Stored Procedure', 'GPS 위치 기반 배차', 'Google ML Kit (OCR)', 'Naver Map', 'White-label 멀티 브랜드'],
+    summary: {
+      ko: '실제 운영 중인 배달 플랫폼의 라이더 Android 앱을 리뉴얼한 프로젝트입니다. 레거시 통신 구조를 공통 통신 모듈 기반으로 마이그레이션하고, 로그인·오더·결제·예치금 등 핵심 업무 기능을 서비스 중단 없이 이전했습니다. 하나의 코드베이스에서 테마와 앱 ID만 바꿔 여러 회사의 라이더 서비스를 만드는 화이트라벨 솔루션으로 개발했습니다.',
+      en: 'Renewed the rider Android app of a delivery platform in live operation. Migrated the legacy communication layer to a shared communication module and moved core workflows — login, orders, payments, deposits — without service interruption. Built as a white-label solution: one codebase producing rider services for multiple companies, varied only by theme and app ID.',
+    },
+    features: [
+      {
+        ko: '레거시 통신 구조 분석 후 공통 통신 모듈 기반으로 마이그레이션 — 운영 중단 없이 단계적 전환',
+        en: 'Analyzed the legacy communication layer and migrated it to a shared module, transitioning in stages without downtime',
+      },
+      {
+        ko: 'GPS 기반 스마트 배차 추천 구현 — 라이더 위치·진행 방향 기준 탐색 영역을 생성해 오더 매칭',
+        en: 'Built GPS-based smart dispatch — generating search areas from rider position and heading to match orders',
+      },
+      {
+        ko: '라이더 업무용 채팅 시스템 개발 — 읽음 상태·사용자 유형별 권한 분기·MSSQL Stored Procedure 연계',
+        en: 'Developed the rider chat system with read receipts, role-based branching, and MSSQL stored procedure integration',
+      },
+      {
+        ko: 'Google ML Kit 운전면허증 OCR + 진위확인 API 연동 — 신형·구형 면허 형식 검증 및 재등록 프로세스',
+        en: 'Integrated Google ML Kit driver\'s license OCR with authenticity verification, covering old & new license formats',
+      },
+    ],
+    achievements: [
+      {
+        ko: '하나의 코드베이스로 테마·앱 ID를 달리한 여러 회사의 라이더 앱 출시 기반 완성',
+        en: 'One codebase became the foundation for multiple companies\' rider apps, differing only in theme and app ID',
+      },
+      {
+        ko: '보안 진단 기반 취약점 개선(인증 우회 방지·민감정보 화면 보호)과 테스트·배포까지 수행하며 무중단 전환',
+        en: 'Hardened the app from security assessments (auth-bypass prevention, sensitive-screen protection) and owned testing & releases through a zero-downtime transition',
+      },
+    ],
+  },
+  {
     slug: 'desktop-field-system',
     title: { ko: 'C# 현장 업무 데스크탑 시스템', en: 'C# Desktop System for Field Operations' },
     tagline: {
@@ -490,6 +534,50 @@ export const projects = [
       {
         ko: '팀 전체의 AI 활용 수준 향상에 기여 (예시)',
         en: 'Raised the whole team’s level of AI adoption (sample)',
+      },
+    ],
+  },
+  {
+    slug: 'thanksto-medical-community',
+    title: { ko: '의료 커뮤니티 앱 \'덕분에\'', en: 'Medical Community App "ThanksTo"' },
+    tagline: {
+      ko: '전문가와 일반인이 의료 정보를 나누는 커뮤니티.',
+      en: 'A community where experts and everyday users share medical knowledge.',
+    },
+    type: { ko: '모바일 · Android (캡스톤)', en: 'Mobile · Android (Capstone)' },
+    role: { ko: '모바일(Android) 개발 담당 · 3인 팀', en: 'Mobile (Android) Developer · 3-person team' },
+    period: { ko: '2021', en: '2021' },
+    stack: ['Android (Java)', 'Retrofit2 · OkHttp', 'JWT 인증', 'RecyclerView', 'Kakao Map API', 'Spring Boot API 연동'],
+    summary: {
+      ko: '전문가와 일반인이 의료 정보를 나누는 커뮤니티 서비스의 대학 캡스톤 프로젝트로, 3인 팀에서 안드로이드 앱을 전담 개발했습니다. Spring Boot REST API를 Retrofit2로 연동하고 JWT 토큰 인증을 인터셉터로 자동화했으며, 13개 진료과 게시판·댓글·검색·인기글 기능을 구현했습니다.',
+      en: 'A university capstone project — a medical community where experts and everyday users exchange knowledge. As the mobile developer on a three-person team, I built the entire Android app: Retrofit2 integration with the Spring Boot REST API, JWT authentication automated via an interceptor, and boards for 13 medical departments with comments, search, and trending posts.',
+    },
+    features: [
+      {
+        ko: 'JWT 로그인·회원가입 및 인터셉터 기반 Bearer 토큰 자동 주입 구현',
+        en: 'Implemented JWT sign-up/login with automatic Bearer token injection via an interceptor',
+      },
+      {
+        ko: '13개 진료과 게시판 — 게시물·댓글 CRUD, 검색, 인기 태그·인기글 조회 구현',
+        en: 'Built boards for 13 medical departments with post/comment CRUD, search, and trending tags & posts',
+      },
+      {
+        ko: 'Retrofit2 + 비동기 콜백으로 REST API 13종 연동, UI 블로킹 없는 데이터 로드',
+        en: 'Integrated 13 REST APIs with Retrofit2 and async callbacks for non-blocking data loading',
+      },
+      {
+        ko: 'BottomNavigation + 프래그먼트 구조의 메인 화면과 RecyclerView 어댑터 4종 구현',
+        en: 'Structured the main screen with bottom navigation + fragments and four RecyclerView adapters',
+      },
+    ],
+    achievements: [
+      {
+        ko: '9개 액티비티 · 5개 프래그먼트 규모의 안드로이드 앱을 단독 구현',
+        en: 'Solely built the Android app — nine activities and five fragments',
+      },
+      {
+        ko: '웹(React) · 서버(Spring Boot) · 크롤링(Python)과 함께 웹·모바일을 모두 지원하는 서비스 완성',
+        en: 'Completed a service spanning web (React), server (Spring Boot), crawling (Python), and mobile',
       },
     ],
   },

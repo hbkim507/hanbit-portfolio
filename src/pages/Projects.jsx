@@ -19,7 +19,14 @@ export function Projects() {
         {projects.map((p, i) => (
           <Link key={p.slug} to={`/projects/${p.slug}`} className="proj-card reveal">
             <div className="proj-card-top">
-              <span className="proj-index">{String(i + 1).padStart(2, '0')}</span>
+              <div className="proj-top-left">
+                <span className="proj-index">{String(i + 1).padStart(2, '0')}</span>
+                {p.period.ko === p.period.en ? (
+                  <span className="proj-period">{p.period.ko}</span>
+                ) : (
+                  <Bi t={p.period} className="proj-period" />
+                )}
+              </div>
               <Bi t={p.type} className="proj-type" />
             </div>
             <Bi t={p.title} as="h3" className="proj-card-title" />
