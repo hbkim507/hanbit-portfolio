@@ -129,8 +129,12 @@ export const skills = {
       items: ['REST API 설계·운영', 'MSSQL', 'MySQL', 'Windows/Linux Server 운영'],
     },
     {
+      name: { ko: '클라우드 & 인프라', en: 'Cloud & Infra' },
+      items: ['AWS EC2 · RDS', 'S3 · CloudFront', 'Route 53', 'CodePipeline · CodeBuild · CodeDeploy'],
+    },
+    {
       name: { ko: 'AI & 자동화', en: 'AI & Automation' },
-      items: ['Claude Code · OpenAI API', '업무 자동화 파이프라인', '개발 생산성 도구 구축'],
+      items: ['Claude Code · Cursor · OpenAI API', '업무 자동화 파이프라인', '개발 생산성 도구 구축'],
     },
     {
       name: { ko: '협업 & 도구', en: 'Collaboration & Tools' },
@@ -165,6 +169,10 @@ export const career = {
         {
           ko: '국내 최대 모바일 플랫폼사 기반 시스템을 사내 앱으로 내재화하여 외부 의존 없이 전환',
           en: 'Migrated a system built on Korea\'s largest mobile platform into the in-house app, eliminating the external dependency',
+        },
+        {
+          ko: 'S3 기반 모바일 앱 리소스 OTA 시스템을 처음부터 단독 설계·구축',
+          en: 'Solely designed and built an S3-based OTA resource update system for the mobile app from the ground up',
         },
         {
           ko: 'AI 도구를 도입해 개발 생산성 향상 및 반복 업무 자동화',
@@ -231,7 +239,7 @@ export const projects = [
     type: { ko: '모바일 · 하이브리드 앱', en: 'Mobile · Hybrid App' },
     role: { ko: '앱 개발 · 운영 (예시)', en: 'App Development & Operations (sample)' },
     period: { ko: '20XX — 현재 (예시)', en: '20XX — Present (sample)' },
-    stack: ['iOS (Swift)', 'Android (Kotlin)', 'WebView Bridge', 'Push Notification', 'SSO'],
+    stack: ['iOS (Swift)', 'Android (Kotlin)', 'WebView Bridge', 'Push Notification', 'SSO', 'AWS S3 (OTA)'],
     summary: {
       ko: '결재·공지·근태 등 흩어져 있던 사내 업무를 하나의 하이브리드 앱으로 통합했습니다. 네이티브 셸과 웹뷰 브리지를 직접 설계해 iOS·Android 두 플랫폼을 하나의 코드베이스로 운영하고, 푸시 알림과 사내 SSO 인증을 연동했습니다.',
       en: 'Unified scattered workplace tasks — approvals, notices, attendance — into a single hybrid app. Designed the native shell and WebView bridge to serve both iOS and Android from one codebase, integrating push notifications and company SSO.',
@@ -244,6 +252,10 @@ export const projects = [
       {
         ko: '푸시 알림 시스템 연동 (Silent/Public Push)',
         en: 'Integrated the push notification system (silent/public push)',
+      },
+      {
+        ko: 'S3 기반 앱 리소스 OTA 업데이트 시스템 단독 설계·구축 — 스토어 재배포 없이 리소스 갱신',
+        en: 'Solely designed and built an S3-based OTA resource update system — refreshing app resources without store releases',
       },
       {
         ko: '사내 SSO 인증 연동 및 보안 세션 관리',
