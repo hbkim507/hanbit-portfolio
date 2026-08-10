@@ -151,47 +151,47 @@ export const career = {
   entries: [
     {
       company: { ko: '동화기업', en: 'Dongwha Enterprise' },
-      role: { ko: '모바일 · 시스템 개발', en: 'Mobile & System Development' },
-      period: { ko: '20XX. XX — 현재', en: '20XX. XX — Present' },
+      role: { ko: '모바일 & 백엔드 개발', en: 'Mobile & Back-end Development' },
+      period: { ko: '2024. 12 — 현재', en: '2024. 12 — Present' },
       bullets: [
         {
-          ko: '사내 iOS·Android 하이브리드 앱 개발 및 운영 (예시)',
-          en: 'Developed and operated in-house hybrid apps for iOS and Android (sample)',
+          ko: '사내 iOS·Android 하이브리드 앱 개발 및 운영',
+          en: 'Developed and operated in-house hybrid apps for iOS and Android',
         },
         {
-          ko: '모바일 앱을 위한 서버·API 설계 및 운영 (예시)',
-          en: 'Designed and operated servers & APIs for mobile apps (sample)',
+          ko: '모바일 앱을 위한 서버·API 설계 및 운영',
+          en: 'Designed and operated servers & APIs for mobile apps',
         },
         {
-          ko: '데이터베이스 설계 및 운영 (예시)',
-          en: 'Designed and operated databases (sample)',
+          ko: '국내 최대 모바일 플랫폼사 기반 시스템을 사내 앱으로 내재화하여 외부 의존 없이 전환',
+          en: 'Migrated a system built on Korea\'s largest mobile platform into the in-house app, eliminating the external dependency',
         },
         {
-          ko: 'AI 도구를 도입해 개발 생산성 향상 및 반복 업무 자동화 (예시)',
-          en: 'Introduced AI tooling to boost productivity and automate repetitive work (sample)',
+          ko: 'AI 도구를 도입해 개발 생산성 향상 및 반복 업무 자동화',
+          en: 'Introduced AI tooling to boost productivity and automate repetitive work',
         },
       ],
     },
     {
-      company: { ko: '이전 회사 (예시)', en: 'Previous Company (sample)' },
+      company: { ko: '이전 회사', en: 'Beyond Inc' },
       role: { ko: '소프트웨어 개발', en: 'Software Development' },
-      period: { ko: '20XX. XX — 20XX. XX', en: '20XX. XX — 20XX. XX' },
+      period: { ko: '2023. 04 — 2024. 12', en: '2023. 04 — 2024. 12' },
       bullets: [
         {
-          ko: '모바일/데스크탑(C#) 애플리케이션 개발 참여 (예시)',
-          en: 'Contributed to mobile and C# desktop application development (sample)',
+          ko: '모바일/데스크탑(C#) 애플리케이션 리뉴얼 구축 및 개발 참여',
+          en: 'Contributed to rebuilding and developing renewed mobile and C# desktop applications',
         },
         {
-          ko: '데스크탑·웹 클라이언트를 위한 서버·API 개발 (예시)',
-          en: 'Developed servers & APIs for desktop and web clients (sample)',
+          ko: '데스크탑·웹 클라이언트를 위한 서버·API 개발',
+          en: 'Developed servers & APIs for desktop and web clients',
         },
         {
-          ko: '데이터베이스 설계 및 운영 (예시)',
-          en: 'Designed and operated databases (sample)',
+          ko: '데이터베이스 설계 및 운영',
+          en: 'Designed and operated databases',
         },
         {
-          ko: '사내 시스템 유지보수 및 기능 개선 (예시)',
-          en: 'Maintained and improved internal systems (sample)',
+          ko: '사내 시스템 유지보수 및 기능 개선',
+          en: 'Maintained and improved internal systems',
         },
       ],
     },
