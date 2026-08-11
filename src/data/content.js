@@ -450,46 +450,186 @@ export const projects = [
     ],
   },
   {
-    slug: 'desktop-field-system',
-    title: { ko: 'C# 현장 업무 데스크탑 시스템', en: 'C# Desktop System for Field Operations' },
+    slug: 'delivery-solution-mobile-apps',
+    title: { ko: '배달 솔루션 모바일 앱군 (가맹점 · 관리자 · 관제)', en: 'Delivery Solution Mobile Apps (Merchant · Admin · Control)' },
     tagline: {
-      ko: '현장의 속도에 맞춘 데스크탑 애플리케이션.',
-      en: 'A desktop application that keeps up with the field.',
+      ko: '주문 접수부터 라이더 관제까지, 배달 솔루션의 안드로이드 3종.',
+      en: 'Three Android apps of one delivery solution — from order intake to rider control.',
     },
-    type: { ko: '데스크탑 · Windows', en: 'Desktop · Windows' },
-    role: { ko: '설계 · 개발 · 운영 (예시)', en: 'Design, Development & Operations (sample)' },
-    period: { ko: '20XX — 20XX (예시)', en: '20XX — 20XX (sample)' },
-    stack: ['C#', '.NET', 'WPF', 'MSSQL'],
+    type: { ko: '모바일 · Android (솔루션)', en: 'Mobile · Android (Solution)' },
+    role: { ko: 'Android 앱 개발 · 운영 및 유지보수', en: 'Android Development, Operations & Maintenance' },
+    period: { ko: '2023 — 2024', en: '2023 — 2024' },
+    stack: ['Android', 'XML UI', 'Naver Map', 'WebView · JS 연동', '로컬 DB', '공통 통신 모듈 · DB 프로시저'],
     summary: {
-      ko: '생산·물류 현장에서 사용하는 업무 시스템을 C#/.NET 기반으로 설계하고 구현했습니다. 현장 장비·데이터와 연동되는 실시간 화면을 제공하고, 오프라인 상황에서도 안전하게 동작하도록 로컬 캐시와 동기화 로직을 구성했습니다.',
-      en: 'Designed and built a C#/.NET business system for production and logistics sites. Provided real-time views connected to field equipment and data, with local caching and sync logic for safe operation even when offline.',
+      ko: '배달 솔루션을 구성하는 세 개의 Android 앱 — 가맹점용(Beshop), 관리자용, 관제용 — 을 개발·운영했습니다. 가맹점 앱은 초기 구조 구성부터 주문 조회·수기 배달 접수·거래내역·전자 동의서까지 폭넓게 개발했고, 관리자·관제 앱에서는 라이더 위치·상태를 확인하고 운영 조치를 수행하는 관제 기능을 고도화했습니다.',
+      en: 'Developed and maintained the three Android apps of a delivery solution — merchant (Beshop), admin, and control. Built the merchant app from its initial structure up through order views, manual delivery intake, transactions, and e-consent forms; on the admin and control apps, advanced the operations tooling for monitoring rider location and status and taking live actions.',
     },
     features: [
       {
-        ko: 'WPF 기반 실시간 현장 모니터링 화면 개발',
-        en: 'Built real-time field monitoring screens with WPF',
+        ko: '가맹점 앱 초기 구조 구성 — 로그인·오더 현황/상세·거래내역·알림 등 핵심 업무 화면과 태블릿 대응 UI 개발',
+        en: 'Built the merchant app from its skeleton — login, order status/detail, transactions, notifications — with tablet-aware layouts',
       },
       {
-        ko: '현장 장비·데이터 연동 인터페이스 구현',
-        en: 'Implemented interfaces to field equipment and data sources',
+        ko: '수기 배달 접수 개발 — 로컬 주소 DB 다운로드·전화번호부 검색 연계, Naver Map으로 출발지·도착지 표시',
+        en: 'Developed manual delivery intake with a downloadable local address DB, phonebook search, and Naver Map origin-destination display',
       },
       {
-        ko: '오프라인 대응 로컬 캐시 및 동기화 로직 설계',
-        en: 'Designed offline-ready local caching and synchronization',
+        ko: '전자 동의서 구현 — WebView Canvas 터치 서명, 필수 항목·서명 검증, 화면 캡처 후 이미지 저장, Native↔Web 데이터 연동',
+        en: 'Implemented e-consent forms — touch signatures on a WebView canvas, required-field validation, capture-to-image saving, and native-web data exchange',
       },
       {
-        ko: 'MSSQL 데이터 모델 설계 및 쿼리 최적화',
-        en: 'Modeled MSSQL data structures and optimized queries',
+        ko: '관리자 앱 직원 위치 화면 고도화 — 라이더 상세·상태 변경·오더 관리·메시지 전송 팝업과 변경 이력 조회',
+        en: 'Advanced the admin app\'s staff-location screen — rider details, status changes, order management, messaging popups, and change-history views',
+      },
+      {
+        ko: '강제 퇴근 등 운영 영향이 큰 기능을 라이더 상태에 따라 조건부 노출하고 조치 로깅 처리',
+        en: 'Gated high-impact actions like forced clock-out behind rider-state conditions, with action logging',
       },
     ],
     achievements: [
       {
-        ko: '수기·엑셀 중심 업무를 시스템화해 처리 시간 단축 (예시)',
-        en: 'Systemized manual/Excel-based work, reducing processing time (sample)',
+        ko: '한 배달 솔루션의 가맹점·관리자·관제 모바일 앱 3종을 함께 개발·운영하며 업무 전 영역 커버',
+        en: 'Covered the full workflow of one delivery solution by developing and operating all three of its mobile apps',
       },
       {
-        ko: '현장 요구사항을 빠르게 반영하는 개선 사이클 정착 (예시)',
-        en: 'Established a fast improvement cycle driven by field feedback (sample)',
+        ko: '브랜드별 로그인 이미지·리소스 조정 등 솔루션 제품의 멀티 브랜드 운영 대응',
+        en: 'Handled multi-brand solution operations, adapting login imagery and resources per brand',
+      },
+    ],
+  },
+  {
+    slug: 'delivery-desktop-systems',
+    title: { ko: '배달 플랫폼 C# 데스크탑 시스템군', en: 'C# Desktop Systems for a Delivery Platform' },
+    tagline: {
+      ko: '매장 운영부터 관리자 백오피스까지, 배달 운영의 데스크탑.',
+      en: 'The desktop side of delivery operations — from storefront to back office.',
+    },
+    type: { ko: '데스크탑 · Windows', en: 'Desktop · Windows' },
+    role: { ko: 'C# 데스크탑 앱 개발 · 운영 및 유지보수', en: 'C# Desktop Development, Operations & Maintenance' },
+    period: { ko: '2023 — 2024', en: '2023 — 2024' },
+    stack: ['C# (.NET)', 'Java 서버 연계', 'MSSQL · Stored Procedure', '공통 통신 모듈', 'Excel Import/Export'],
+    summary: {
+      ko: '실제 운영 중인 배달 플랫폼을 지탱하는 여러 C# 데스크탑 애플리케이션 — 매장용 앱, 운영 관리자 시스템, 내부 업무 시스템 — 을 개발·운영했습니다. C# 클라이언트에서 Java 서버, MSSQL Stored Procedure까지 이어지는 전체 데이터 흐름을 직접 수정하며, 거래·정산 화면 고도화부터 감사 로그, 할증 승인 프로세스, 레거시 통신 구조 개선까지 폭넓게 담당했습니다.',
+      en: 'Developed and maintained the C# desktop applications behind a live delivery platform — the storefront app, the operations admin system, and internal business tools. Worked across the full data path from C# client through the Java server down to MSSQL stored procedures: transaction and settlement screens, audit logging, surcharge approval workflows, and a legacy communication-layer overhaul.',
+    },
+    features: [
+      {
+        ko: '매장용 PC 앱 고도화 — 거래내역·정산·공지·설정 전반을 데이터 기준 변경에 맞춰 재정의하고 부관리자 관리 기능 개발',
+        en: 'Modernized the storefront PC app — redefined transactions, settlement, notices, and settings around new data rules, and added sub-admin management',
+      },
+      {
+        ko: '민감정보 엑셀 다운로드 감사 로그 구축 — 클라이언트 이벤트부터 Java 서버, MSSQL 프로시저까지 행위 이력 기록을 end-to-end로 연계',
+        en: 'Built audit logging for sensitive-data Excel downloads — wiring action history end-to-end from client events through the Java server to MSSQL procedures',
+      },
+      {
+        ko: '부피·과적 할증 승인/거절/지급 프로세스 구현 — 운영사 관리자와 센터 관리자의 조회·선택 권한 분기',
+        en: 'Implemented the volume/overload surcharge approval-rejection-payout workflow with role-based access for operator vs. center admins',
+      },
+      {
+        ko: '관리자 PC의 레거시 통신 구조를 공통 통신 모듈로 로그인부터 단계적 전환',
+        en: 'Migrated the admin PC\'s legacy communication layer to the shared module, converting incrementally starting from login',
+      },
+      {
+        ko: '브랜드 → 매장 → 단말기 계정으로 이어지는 관리자 CRUD와 운영 데이터 관계 관리 화면 개발',
+        en: 'Built admin CRUD screens managing the brand → store → device-account hierarchy and its data relationships',
+      },
+    ],
+    achievements: [
+      {
+        ko: '모바일 개발과 병행하며 매장용·관리자·내부 운영 시스템까지 C#–Java–MSSQL 전 구간을 다루는 경험 확보',
+        en: 'Covered the full C#–Java–MSSQL stack across storefront, admin, and internal systems — in parallel with mobile work',
+      },
+      {
+        ko: '운영 중인 업무 시스템을 테스트 시나리오 작성·회귀 테스트와 함께 중단 없이 고도화',
+        en: 'Enhanced live business systems without disruption, backed by test scenarios and regression testing',
+      },
+    ],
+  },
+  {
+    slug: 'woochin-android-app',
+    title: { ko: 'GS리테일 \'우친\' 앱 보안 강화 및 운영', en: 'GS Retail "Woochin" App — Security Hardening & Operations' },
+    tagline: {
+      ko: '모의해킹 진단 결과를 실제 서비스 앱에 반영하다.',
+      en: 'Turning penetration-test findings into shipped fixes.',
+    },
+    type: { ko: '모바일 · Android (SI)', en: 'Mobile · Android (SI)' },
+    role: { ko: 'Android 개발 · 보안 개선 · 스토어 운영', en: 'Android Development, Security Fixes & Store Operations' },
+    period: { ko: '2023 — 2024', en: '2023 — 2024' },
+    stack: ['Android', '모의해킹 대응 · 보안 개선', 'Play Store 심사·배포', 'Android 권한 정책 대응'],
+    summary: {
+      ko: 'GS리테일 우리동네딜리버리(우딜) 서비스의 배달원용 Android 앱 \'우친\'을 담당한 SI 프로젝트입니다. 모의해킹 진단 결과를 분석해 인증 우회와 민감정보 노출 취약점을 개선하고, 권한 안내·버그 수정 같은 운영 대응부터 Play Store 심사 신청과 배포까지 직접 관리했습니다.',
+      en: 'An SI engagement on "Woochin", the courier-side Android app of GS Retail\'s neighborhood delivery service. Analyzed penetration-test findings to fix authentication-bypass and sensitive-data exposure vulnerabilities, and handled day-to-day operations — permission notices, bug fixes — through Play Store review submissions and releases.',
+    },
+    features: [
+      {
+        ko: '화면 강제 실행을 통한 인증 단계 우회 방지 및 불충분한 이용자 인증 보완',
+        en: 'Blocked authentication-step bypass via forced screen launch and strengthened insufficient user verification',
+      },
+      {
+        ko: '개인정보·정산계좌 화면의 백그라운드 전환 시 화면 보호 처리',
+        en: 'Protected personal-data and settlement-account screens from exposure when the app moves to the background',
+      },
+      {
+        ko: '계좌 변경 확인 과정에서 메모리 내 비밀번호·계좌정보 등 중요정보의 평문 노출 최소화',
+        en: 'Minimized plaintext exposure of passwords and account data in memory during account-change verification',
+      },
+      {
+        ko: '권한 안내 문구·외국인 가입 안내 등 스토어 정책 대응과 Play Store 심사 신청·배포 수행',
+        en: 'Handled store-policy work — permission rationale copy, foreign-user onboarding guidance — plus Play Store review submission and release',
+      },
+    ],
+    achievements: [
+      {
+        ko: '실제 보안 진단 결과를 운영 중인 서비스 앱에 반영해 인증·민감정보 취약점 해소',
+        en: 'Resolved authentication and sensitive-data vulnerabilities by applying real security-assessment findings to a live app',
+      },
+      {
+        ko: '심사 신청부터 배포까지 스토어 운영 사이클을 직접 관리',
+        en: 'Owned the store operations cycle end to end, from review submission to release',
+      },
+    ],
+  },
+  {
+    slug: 'jeju-dutyfree-logistics-app',
+    title: { ko: '제주면세점 물류 업무용 Android 앱', en: 'Jeju Duty-Free Logistics Android App' },
+    tagline: {
+      ko: '낯선 도메인에 투입되어 현장 업무 화면을 만들다.',
+      en: 'Dropped into a new domain — building the screens the field runs on.',
+    },
+    type: { ko: '모바일 · Android (SI)', en: 'Mobile · Android (SI)' },
+    role: { ko: 'Android 업무 화면 개발 (SI 지원 파견)', en: 'Android Development (On-site SI Support)' },
+    period: { ko: '2023 — 2024', en: '2023 — 2024' },
+    stack: ['Android', 'XML UI', 'DB 프로시저 연동', '물류 도메인 (적치 · PICKING)'],
+    summary: {
+      ko: '도시바글로벌커머스솔루션즈코리아의 SI 프로젝트를 지원하기 위해 파견되어, 제주면세점 물류 현장에서 사용하는 Android 앱을 개발했습니다. 기존 소스와 업무 요구사항을 분석해 오퍼레이터 흐름을 파악한 뒤, 상품 적재(점보충·점반품·양수)와 PICKING 업무 화면을 개발하고 서버 프로시저를 연계했습니다.',
+      en: 'Dispatched to Toshiba Global Commerce Solutions Korea to support an SI project: an Android app used on the floor of the Jeju duty-free shop. Analyzed the existing source and business requirements to map operator workflows, then built the stocking (replenishment, returns, transfers) and picking screens, wired to server-side DB procedures.',
+    },
+    features: [
+      {
+        ko: '기존 소스·요구사항 분석과 오퍼레이터 업무 흐름 파악 후 개발 착수',
+        en: 'Started by analyzing the existing source, requirements, and operator workflows',
+      },
+      {
+        ko: '상품 적재(점보충·점반품·양수) 목록 및 상품내역 화면 개발',
+        en: 'Built stocking screens — replenishment, returns, and transfer lists with item details',
+      },
+      {
+        ko: '점보충·점반품 PICKING 검색/상품내역과 전시 출고·온라인 상품 수거 화면 UI 개발',
+        en: 'Developed picking search and item-detail screens, plus display-outbound and online-order collection UIs',
+      },
+      {
+        ko: '화면과 업무 흐름에 맞춰 전달받은 DB 프로시저를 연계한 기능 개발',
+        en: 'Connected the screens to provided DB procedures, matching each business flow',
+      },
+    ],
+    achievements: [
+      {
+        ko: '배달과 전혀 다른 면세점 물류 도메인의 기존 시스템을 빠르게 분석하고 이어서 개발',
+        en: 'Quickly ramped up on an unfamiliar duty-free logistics codebase and carried development forward',
+      },
+      {
+        ko: '목록 → 상세 → 작업 처리로 이어지는 현장 업무 UX를 모바일로 구현',
+        en: 'Delivered the field-work UX — list to detail to task completion — on mobile',
       },
     ],
   },
