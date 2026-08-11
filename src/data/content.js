@@ -458,7 +458,7 @@ export const projects = [
     },
     type: { ko: '모바일 · Android (솔루션)', en: 'Mobile · Android (Solution)' },
     role: { ko: 'Android 앱 개발 · 운영 및 유지보수', en: 'Android Development, Operations & Maintenance' },
-    period: { ko: '2023 — 2024', en: '2023 — 2024' },
+    period: { ko: '2023. 08 — 2024. 01', en: '2023. 08 — 2024. 01' },
     stack: ['Android', 'XML UI', 'Naver Map', 'WebView · JS 연동', '로컬 DB', '공통 통신 모듈 · DB 프로시저'],
     summary: {
       ko: '배달 솔루션을 구성하는 세 개의 Android 앱 — 가맹점용(Beshop), 관리자용, 관제용 — 을 개발·운영했습니다. 가맹점 앱은 초기 구조 구성부터 주문 조회·수기 배달 접수·거래내역·전자 동의서까지 폭넓게 개발했고, 관리자·관제 앱에서는 라이더 위치·상태를 확인하고 운영 조치를 수행하는 관제 기능을 고도화했습니다.',
@@ -547,14 +547,14 @@ export const projects = [
   },
   {
     slug: 'woochin-android-app',
-    title: { ko: 'GS리테일 \'우친\' 앱 보안 강화 및 운영', en: 'GS Retail "Woochin" App — Security Hardening & Operations' },
+    title: { ko: 'GS리테일 \'우리동네딜리버리\' 앱 보안 강화 및 운영', en: 'GS Retail Neighborhood Delivery App — Security Hardening & Operations' },
     tagline: {
       ko: '모의해킹 진단 결과를 실제 서비스 앱에 반영하다.',
       en: 'Turning penetration-test findings into shipped fixes.',
     },
     type: { ko: '모바일 · Android (SI)', en: 'Mobile · Android (SI)' },
     role: { ko: 'Android 개발 · 보안 개선 · 스토어 운영', en: 'Android Development, Security Fixes & Store Operations' },
-    period: { ko: '2023 — 2024', en: '2023 — 2024' },
+    period: { ko: '2023. 04 — 2024. 11', en: '2023. 04 — 2024. 11' },
     stack: ['Android', '모의해킹 대응 · 보안 개선', 'Play Store 심사·배포', 'Android 권한 정책 대응'],
     summary: {
       ko: 'GS리테일 우리동네딜리버리(우딜) 서비스의 배달원용 Android 앱 \'우친\'을 담당한 SI 프로젝트입니다. 모의해킹 진단 결과를 분석해 인증 우회와 민감정보 노출 취약점을 개선하고, 권한 안내·버그 수정 같은 운영 대응부터 Play Store 심사 신청과 배포까지 직접 관리했습니다.',
@@ -591,18 +591,18 @@ export const projects = [
   },
   {
     slug: 'jeju-dutyfree-logistics-app',
-    title: { ko: '제주면세점 물류 업무용 Android 앱', en: 'Jeju Duty-Free Logistics Android App' },
+    title: { ko: '제주면세점 물류 업무용 Android PDA 앱', en: 'Jeju Duty-Free Logistics Android PDA App' },
     tagline: {
       ko: '낯선 도메인에 투입되어 현장 업무 화면을 만들다.',
       en: 'Dropped into a new domain — building the screens the field runs on.',
     },
     type: { ko: '모바일 · Android (SI)', en: 'Mobile · Android (SI)' },
     role: { ko: 'Android 업무 화면 개발 (SI 지원 파견)', en: 'Android Development (On-site SI Support)' },
-    period: { ko: '2023 — 2024', en: '2023 — 2024' },
-    stack: ['Android', 'XML UI', 'DB 프로시저 연동', '물류 도메인 (적치 · PICKING)'],
+    period: { ko: '2024. 10 — 2024. 12', en: '2024. 10 — 2024. 12' },
+    stack: ['Android (PDA)', 'XML UI', 'DB 프로시저 연동', '물류 도메인 (적치 · PICKING)'],
     summary: {
-      ko: '도시바글로벌커머스솔루션즈코리아의 SI 프로젝트를 지원하기 위해 파견되어, 제주면세점 물류 현장에서 사용하는 Android 앱을 개발했습니다. 기존 소스와 업무 요구사항을 분석해 오퍼레이터 흐름을 파악한 뒤, 상품 적재(점보충·점반품·양수)와 PICKING 업무 화면을 개발하고 서버 프로시저를 연계했습니다.',
-      en: 'Dispatched to Toshiba Global Commerce Solutions Korea to support an SI project: an Android app used on the floor of the Jeju duty-free shop. Analyzed the existing source and business requirements to map operator workflows, then built the stocking (replenishment, returns, transfers) and picking screens, wired to server-side DB procedures.',
+      ko: '도시바글로벌커머스솔루션즈코리아의 SI 프로젝트를 지원하기 위해 파견되어, 제주면세점 물류 현장에서 사용하는 Android PDA 앱을 개발했습니다. 기존 소스와 업무 요구사항을 분석해 오퍼레이터 흐름을 파악한 뒤, 상품 적재(점보충·점반품·양수)와 PICKING 업무 화면을 개발하고 서버 프로시저를 연계했습니다.',
+      en: 'Dispatched to Toshiba Global Commerce Solutions Korea to support an SI project: an Android PDA app used by operators on the floor of the Jeju duty-free shop. Analyzed the existing source and business requirements to map operator workflows, then built the stocking (replenishment, returns, transfers) and picking screens, wired to server-side DB procedures.',
     },
     features: [
       {
