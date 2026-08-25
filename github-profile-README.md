@@ -2,7 +2,7 @@
   GitHub 프로필 README 초안
   사용법: github.com에서 `hbkim507/hbkim507` 저장소를 만들고(Public),
   이 파일 내용을 그 저장소의 README.md로 넣으면 프로필 상단에 표시됩니다.
-  ※ 포트폴리오 배포 URL, LinkedIn 주소는 실제 값으로 교체하세요.
+  ※ LinkedIn 주소는 실제 값으로 교체하세요.
 -->
 
 ### 안녕하세요, 멀티플랫폼 개발자 김한빛입니다 👋
@@ -65,7 +65,7 @@
 | **웹뷰 하이브리드 공통 플랫폼** | 하나의 아키텍처로 사내 앱 3종 운영 — 양방향 IPC 브리지, 코드 재사용률 70%+ |
 | **배달 라이더 앱 리뉴얼** | 화이트라벨 Android 솔루션 — GPS 스마트 배차, ML Kit 면허증 OCR, 무중단 전환 |
 
-👉 **Portfolio:** https://your-portfolio-url.example *(배포 URL로 교체)*
+👉 **Portfolio:** https://hanbit-portfolio.hbkim507.workers.dev
 
 <br />
 
