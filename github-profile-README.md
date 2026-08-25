@@ -12,6 +12,8 @@
 앱에서 서버, 데이터베이스까지 — 플랫폼에 맞는 최적의 답을 만듭니다.
 경계를 두지 않고 서비스 전체를 설계하고 구현합니다.
 
+🏢 현재 **동화기업**에서 사내 모바일 앱과 백엔드를 개발·운영하고 있습니다. *(2024. 12 — )*
+
 - 📱 **Mobile** — iOS(Swift) · Android(Kotlin/Java) · React Native 하이브리드 앱 개발·운영
 - 🖥️ **Desktop** — C# / .NET 기반 데스크탑 애플리케이션 설계·개발
 - 🌐 **Server & Data** — Spring Boot 기반 REST API 설계·운영, MSSQL · MySQL
