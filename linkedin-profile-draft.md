@@ -53,7 +53,7 @@ iOS·Android 네이티브와 하이브리드 앱, C# 데스크탑 애플리케�
 · Spring Boot + Nuxt 기반 OTA 어드민 콘솔의 리소스 도메인 전담 설계·개발
 · 배달 플랫폼의 Android 앱·C# 데스크탑·서버까지 전 구간 개발·운영
 
-포트폴리오: https://hanbit-portfolio.hbkim507.workers.dev
+포트폴리오: https://portfolio.hbkim507.workers.dev
 GitHub: https://github.com/hbkim507
 ```
 
@@ -78,7 +78,7 @@ Highlights:
 · Owned the resource (OTA) domain of a Spring Boot + Nuxt admin console, server to web
 · Worked the full stack of a delivery platform: Android apps, C# desktop, and servers
 
-Portfolio: https://hanbit-portfolio.hbkim507.workers.dev
+Portfolio: https://portfolio.hbkim507.workers.dev
 GitHub: https://github.com/hbkim507
 ```
 
@@ -142,7 +142,7 @@ GitHub: https://github.com/hbkim507
 
 링크로 추가:
 
-1. 포트폴리오 사이트 — `https://hanbit-portfolio.hbkim507.workers.dev`
+1. 포트폴리오 사이트 — `https://portfolio.hbkim507.workers.dev`
 2. GitHub 프로필 — `https://github.com/hbkim507`
 
 ---

@@ -65,7 +65,7 @@
 | **웹뷰 하이브리드 공통 플랫폼** | 하나의 아키텍처로 사내 앱 3종 운영 — 양방향 IPC 브리지, 코드 재사용률 70%+ |
 | **배달 라이더 앱 리뉴얼** | 화이트라벨 Android 솔루션 — GPS 스마트 배차, ML Kit 면허증 OCR, 무중단 전환 |
 
-👉 **Portfolio:** https://hanbit-portfolio.hbkim507.workers.dev
+👉 **Portfolio:** https://portfolio.hbkim507.workers.dev
 
 <br />
 
