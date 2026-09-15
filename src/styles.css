@@ -814,6 +814,23 @@ main {
   color: var(--accent);
 }
 
+/* 카드 커버 (슬러그별 SVG 일러스트 — ProjectCover.jsx) */
+.proj-cover {
+  margin: -1.6rem -1.6rem 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: calc(var(--radius) - 1px) calc(var(--radius) - 1px) 0 0;
+  background: var(--bg2);
+  overflow: hidden;
+}
+.proj-cover svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+:root[data-theme='neon'] .proj-cover {
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.05), rgba(167, 139, 250, 0.06));
+}
+
 /* ---------- Project detail ---------- */
 .back-link {
   display: inline-flex;

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { projects, projectsSection } from '../data/content.js'
 import { Bi } from '../components/Bi.jsx'
+import { ProjectCover } from '../components/ProjectCover.jsx'
 import { useReveal } from '../components/useReveal.js'
 
 export function Projects() {
@@ -18,6 +19,7 @@ export function Projects() {
       <div className="proj-grid">
         {projects.map((p, i) => (
           <Link key={p.slug} to={`/projects/${p.slug}`} className="proj-card reveal">
+            <ProjectCover slug={p.slug} />
             <div className="proj-card-top">
               <div className="proj-top-left">
                 <span className="proj-index">{String(i + 1).padStart(2, '0')}</span>

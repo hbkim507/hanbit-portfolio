@@ -9,7 +9,7 @@
 // showProjects: false → 프로젝트 탭·프로젝트 보기 버튼·홈 프로젝트 섹션·/projects 페이지를 숨깁니다.
 // 나중에 true로 바꾸면 모두 똑같은 위치에 그대로 다시 표시됩니다.
 export const flags = {
-  showProjects: false,
+  showProjects: true,
 }
 
 export const site = {
